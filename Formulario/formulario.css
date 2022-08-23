@@ -1,19 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-#titulo {
-    font-family: sans-serif;
-    color: rgb(51, 189, 189);
-    text-shadow: 2px 2px 2px rgb(177, 236, 236);
-    margin-left: 7%;
-}
-
-#subtitulo {
-    font-family: sans-serif;
-    color: rgb(51, 189, 189);
-    margin-left: 10%;
+    box-sizing: border-box;
 }
 
 fieldset {
@@ -21,18 +9,37 @@ fieldset {
 }
 
 body {
-    background-image: url(ceu.jpg);
-    background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: #000;
+    background-color: #c8a2c8 ;
     font-family: sans-serif;
     font-size: 1em;
-    color: rgb(51, 189, 189);
+    color: #46295A;
     margin-left: 36%;
     margin-top: 2%;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
 }
+
+.titulos {
+    text-align: center;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: #46295A;
+    text-shadow: 2px 2px 2px #e6ccef;
+    padding: 80px 0 20px 0;
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    color: #46295A;
+    padding-bottom: 40px;
+}
+
+
 
 input, select, textarea, button {
     border-radius: 5px;
@@ -44,7 +51,7 @@ input, select, textarea, button {
 
 .campo label {
     margin-bottom: 0.2em;
-    color: rgb(51, 189, 189);
+    color: #46295A;
     display: block;
 }
 
@@ -55,7 +62,7 @@ fieldset.grupo .campo {
 
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
     padding: 0.2em;
-    border: 1px solid rgb(51, 189, 189);
+    border: 1px solid #46295A;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     display: block;
 }
@@ -65,29 +72,25 @@ fieldset.grupo .campo {
 }
 
 .campo input:focus, .campo select:focus, .campo textarea:focus {
-    background: rgb(177, 236, 236);
+    background: #e6ccef;
 
 }
 
 .botao {
     font-size: 1.2em;
-    background:rgba(51, 189, 189);
+    background: #46295A;
     border: 0;
     margin-bottom: 1em;
-    color: rgba(193, 233, 233);
+    color: #e6ccef;
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    position: absolute;
-    top: 70%;
-    left: 46%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+
 
 }
 
 .botao:hover {
-    background:rgba(51, 189, 189);
+    background: #46295A;
     box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: none;
 }
