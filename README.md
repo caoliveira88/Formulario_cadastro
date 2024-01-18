@@ -1,12 +1,13 @@
-# Cadastro_devs
+# Formulario_cadastro
 
-Olá! Esse é meu primeiro forms - Conteúdo ministrado no canal da Rafaella Ballerini 😄
+Bem-vindo ao meu primeiro formulário 📄 </br>
+Neste projeto, me desafiei a criar um formulário atraente e funcional com várias opções de inputs.
 
 ![Cadastro_devs](Formulario/cadastro-final.jpg)
 
 ## Tecnicas e ferramentas utilizadas
-- ``HTML``
-- ``CSS``
-- ``VS Code IDEA``
+- ``HTML:`` Utilizei marcações semânticas para estruturar o formulário de maneira eficiente.
+- ``CSS:`` Estilizei o formulário para proporcionar uma experiência visual agradável.
+- ``VS Code IDEA:`` Para desenvolver e aprimorar o código.
 
 
